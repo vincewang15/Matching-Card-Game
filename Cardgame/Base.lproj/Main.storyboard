@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleAspectFit" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CLf-Ze-wcZ">
+                                <rect key="frame" x="47" y="47" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="QQ4-RG-q0E"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nIF-Wb-Bsu">
+                                <rect key="frame" x="123" y="47" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="vaQ-5J-qzH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgl-yB-b5V">
+                                <rect key="frame" x="201" y="47" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Wqu-6a-MkW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCp-tl-lVI">
+                                <rect key="frame" x="277" y="47" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nee-mx-l6I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qLh-Q9-sFA">
+                                <rect key="frame" x="47" y="137" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="fzl-9o-fsg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6me-VE-QYm">
+                                <rect key="frame" x="123" y="137" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jir-Sd-bnN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mn0-Jl-CH1">
+                                <rect key="frame" x="201" y="137" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="jON-Pa-qvd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Y8-iq-e2J">
+                                <rect key="frame" x="277" y="137" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G7d-28-B88"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9e-0U-RYb">
+                                <rect key="frame" x="47" y="227" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bsY-Do-yeG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5FH-xj-Gs3">
+                                <rect key="frame" x="123" y="227" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9Gs-S1-Zf1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I04-bL-94W">
+                                <rect key="frame" x="201" y="227" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="x2F-E6-w5f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpI-6i-Nwo">
+                                <rect key="frame" x="277" y="227" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WwE-VU-L00"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="goR-tf-lwz">
+                                <rect key="frame" x="47" y="317" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="hMX-Km-Cjj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5th-ul-pVP">
+                                <rect key="frame" x="123" y="317" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nQB-hi-USS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="etH-Xb-g2g">
+                                <rect key="frame" x="201" y="317" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LnT-IV-CC9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFt-Gi-tqi">
+                                <rect key="frame" x="277" y="317" width="59" height="82"/>
+                                <state key="normal" backgroundImage="stanford-tree">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchme:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8rk-MB-1wy"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score: 0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LOg-0m-MsX">
+                                <rect key="frame" x="140" y="472" width="95" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EMt-Jp-qUt">
+                                <rect key="frame" x="140" y="547" width="103" height="30"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="restart:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Qvt-mS-Vz8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.44642539116145452" green="0.71659018326179702" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myscore" destination="LOg-0m-MsX" id="Afh-Cl-ZkF"/>
+                        <outletCollection property="buttons" destination="CLf-Ze-wcZ" id="YVZ-mH-Ay6"/>
+                        <outletCollection property="buttons" destination="nIF-Wb-Bsu" id="SdS-U8-jM5"/>
+                        <outletCollection property="buttons" destination="qLh-Q9-sFA" id="CCU-05-Xcl"/>
+                        <outletCollection property="buttons" destination="6me-VE-QYm" id="tPC-19-rVD"/>
+                        <outletCollection property="buttons" destination="Jgl-yB-b5V" id="d3L-Ey-RP5"/>
+                        <outletCollection property="buttons" destination="QCp-tl-lVI" id="yvM-4c-WS2"/>
+                        <outletCollection property="buttons" destination="Mn0-Jl-CH1" id="f2B-WX-VmA"/>
+                        <outletCollection property="buttons" destination="2Y8-iq-e2J" id="N45-Z4-m0e"/>
+                        <outletCollection property="buttons" destination="VpI-6i-Nwo" id="Eer-0A-gMW"/>
+                        <outletCollection property="buttons" destination="hFt-Gi-tqi" id="m3N-Jb-SSO"/>
+                        <outletCollection property="buttons" destination="etH-Xb-g2g" id="sUD-dn-7xv"/>
+                        <outletCollection property="buttons" destination="I04-bL-94W" id="XJ5-9s-6PF"/>
+                        <outletCollection property="buttons" destination="5th-ul-pVP" id="HGz-c8-ZRx"/>
+                        <outletCollection property="buttons" destination="goR-tf-lwz" id="1My-7o-g1s"/>
+                        <outletCollection property="buttons" destination="5FH-xj-Gs3" id="l4O-xh-zRs"/>
+                        <outletCollection property="buttons" destination="M9e-0U-RYb" id="m2T-dn-uZq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="397.5" y="167.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="stanford-tree" width="128" height="192"/>
+    </resources>
+</document>
